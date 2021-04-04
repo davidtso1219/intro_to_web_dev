@@ -1,4 +1,52 @@
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .form {
-    background-color: #2e1c97dc;
-    
+    background-color: #1f116ddc;
+    margin: 2rem auto 0 auto;
+    padding: 1.5rem;
+    width: 25rem;
+    border-radius: 8px;
+    color: bisque;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto 1em auto;
+}
+
+.form__label {
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    height: 2rem;
+    border-radius: 6px;
+}
+
+.button {
+    display: block;
+    background-color: coral;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 1.5rem auto 0 auto;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(251, 151, 115);
 }
