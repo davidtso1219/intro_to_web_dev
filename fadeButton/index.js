@@ -1,8 +1,14 @@
-let mylogo = document.getElementById('myLogo');
+let pageOne = document.getElementById('pageOne');
+let pageTwo = document.getElementById('pageTwo');
+
+
 document.getElementById('myButton').onclick = function(){
-  mylogo.classList.add('fade');
-  setTimeout(() => {
-      mylogo.classList.remove('fade');
-      alert(mylogo.classList.toString())
-  }, 3000);
+    pageOne.classList.add('fade');
+    setTimeout(fadeIn, 3000);
+}
+
+function fadeIn(){
+    pageOne.classList.remove('fade');
+    pageOne.classList.add('faded');
+    pageTwo.classList.add('fade');
 }

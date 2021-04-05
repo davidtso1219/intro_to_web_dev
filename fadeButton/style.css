@@ -2,14 +2,20 @@ div {
     max-width: 900px;
     text-align: center;
 }
-#myLogo {
+#pageOne {
     opacity: 1;
-    -webkit-transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -ms-transition: opacity 0.3s ease-in-out;
-    -o-transition: opacity 0.3s ease-in-out;
-    transition: opacity 0.3 ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
-#myLogo.fade {
-    opacity:0;
+#pageOne.fade {
+    opacity: 0;
+}
+#pageOne.faded {
+    display: none;
+}
+#pageTwo {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#pageTwo.fade {
+    opacity: 1;
 }
