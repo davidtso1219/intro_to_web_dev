@@ -1,6 +1,6 @@
-# intro_to_web_dev
+# My Web Design Practice
 
-This is a collection of all my practice of web dev.
+This is a collection of all my practice of website development.
 
 - firstWebPage
 
@@ -9,3 +9,7 @@ This is a collection of all my practice of web dev.
 - formPractice
 
     This is a practice of making a form using basic HTML and CSS. The learning resource is from a Udemy course.
+
+- fadeButton
+
+    This is just a practice of fade effect.
